@@ -10,11 +10,3 @@ def home(request):
             "name": "Marcus Vinicius",
         },
     )
-
-
-def sobre(request):
-    return HttpResponse("sobre")
-
-
-def contato(request):
-    return HttpResponse("contato")
